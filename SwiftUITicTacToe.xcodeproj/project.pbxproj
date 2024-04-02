@@ -11,6 +11,8 @@
 		53CE1DAD2BBC517D00FA5EFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CE1DAC2BBC517D00FA5EFF /* ContentView.swift */; };
 		53CE1DAF2BBC518300FA5EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CE1DAE2BBC518300FA5EFF /* Assets.xcassets */; };
 		53CE1DB22BBC518300FA5EFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CE1DB12BBC518300FA5EFF /* Preview Assets.xcassets */; };
+		53CE1DB92BBC545A00FA5EFF /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CE1DB82BBC545900FA5EFF /* Cell.swift */; };
+		53CE1DBB2BBC63B500FA5EFF /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CE1DBA2BBC63B500FA5EFF /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		53CE1DAC2BBC517D00FA5EFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53CE1DAE2BBC518300FA5EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53CE1DB12BBC518300FA5EFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53CE1DB82BBC545900FA5EFF /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		53CE1DBA2BBC63B500FA5EFF /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				53CE1DAA2BBC517D00FA5EFF /* SwiftUITicTacToeApp.swift */,
+				53CE1DBA2BBC63B500FA5EFF /* GameState.swift */,
+				53CE1DB82BBC545900FA5EFF /* Cell.swift */,
 				53CE1DAC2BBC517D00FA5EFF /* ContentView.swift */,
 				53CE1DAE2BBC518300FA5EFF /* Assets.xcassets */,
 				53CE1DB02BBC518300FA5EFF /* Preview Content */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				53CE1DAD2BBC517D00FA5EFF /* ContentView.swift in Sources */,
+				53CE1DBB2BBC63B500FA5EFF /* GameState.swift in Sources */,
 				53CE1DAB2BBC517D00FA5EFF /* SwiftUITicTacToeApp.swift in Sources */,
+				53CE1DB92BBC545A00FA5EFF /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
